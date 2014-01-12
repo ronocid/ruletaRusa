@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/revolver"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Actividad" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="97dp"
+        android:layout_marginLeft="110dp"
+        android:background="@android:color/transparent"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/bala1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="71dp"
+        android:background="@android:color/transparent"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/bala2" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/bala3" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@layout/activity_actividad"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="34dp"
+        android:background="@android:color/transparent"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/bala4" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="149dp"
+        android:background="@android:color/transparent"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/bala5" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="361dp"
+        android:background="@android:color/transparent"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/bala6" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/fin"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageButton2"
+        android:visibility="invisible"
+        android:text="@string/continuar" />
+</RelativeLayout>
